@@ -8,7 +8,7 @@ class Dao:
             self.CONEXION=mysql.connector.connect(
                 host='127.0.0.1',
                 user='root',
-                password='Swordfish19.',
+                password='your_pass',
                 db='educacion',
                 port='3306'
             )
