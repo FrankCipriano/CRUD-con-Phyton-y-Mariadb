@@ -9,7 +9,7 @@ class Dao:
                 host='127.0.0.1',
                 user='root',
                 password='your_pass',
-                db='educacion',
+                db='database_name',
                 port='3306'
             )
             print(f'Servidor corriendo: {self.CONEXION.get_server_info()}')
